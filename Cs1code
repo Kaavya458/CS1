@@ -1,0 +1,25 @@
+#include<iostream.h>
+#include<conio.h>
+Class ratio
+{
+Pulblic:
+Void print()
+{
+Cout <<"NOW IT IS BORN"<<endl;
+}
+Ratio()
+{
+Cout <<"NOW X IS ALIVE"<<endl;
+}
+~ratio()
+{
+Cout<<"NOW IT DIES"<<endl;
+}
+};
+Void main()
+{
+Clrscr();
+Ratio r;
+r. Print();
+Getch();
+}
