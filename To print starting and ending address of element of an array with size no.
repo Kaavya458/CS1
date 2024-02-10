@@ -1,0 +1,24 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a[50],i,sum=0;
+int *ptr;
+cout<<"Enter 10 Numbers:"<<endl;
+for(i=0;i<10;i++)
+{
+cin>>a[i];
+}
+ptr=&a[i];
+cout<<"Number"<<"\t"<<"Start Add"<<"\t" <<"End Add"<<"\t\t"<<"Size of No."<<"\t"<<"Sum"<<endl;
+for(i=0;i<10;i++)
+{
+sum=sum+a[i];
+cout<<a[i]<<"\t"<<ptr<<"\t"<<ptr+1<<"\t"<<sizeof(*ptr)<<"\t\t"<<sum<<endl;
+ptr++;
+}
+cout<<"Sum of all no:"<<sum<<endl;
+cout<<"Add of sum:"<<&sum;
+getch();
+}
