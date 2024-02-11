@@ -1,0 +1,19 @@
+Private Sub Command1_Click()
+Dim i, sum As Integer
+sum=0
+i=1
+Do 
+List1.AddItem (i) 
+sum = sum + i 
+i=i+1 
+Loop Until (i > 10) 
+Text1.Text = sum
+End Sub
+
+Private Sub Command3_Click() End
+End Sub
+
+Private Sub Command4_Click()
+Text1.Text = ""
+List1.Clear
+End Sub
