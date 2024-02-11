@@ -1,0 +1,41 @@
+#include<iostream.h>
+#include<conio.h>
+class stud
+{
+public:
+int rollno;
+float mark;
+~stud() {
+cout<<"Constructor is destroyed"<<endl;
+}
+stud() /*constructor*/
+{
+rollno=10;
+mark=90.55;
+}
+stud(int r,float m) /*parameterised constuructor*/
+{
+rollno=r;
+mark=m;
+}
+stud(stud&p) /*Copy constructor*/
+{
+rollno-p.rollno;
+mark-p.mark;
+}
+void display()
+{
+cout<<"Roll no:"<<rollno<<endl;
+cout<<"Marks:"<<mark<<endl;
+}
+};
+void main()
+{
+clrscr();
+int r,m;
+stud o;
+o.display();
+stud ol(11,98.5);
+stud o2(01);
+ol.display();
+//getch();}
