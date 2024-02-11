@@ -1,0 +1,77 @@
+#include<iostream.h>
+#include<conio.h>
+#include<iomanip.h>
+class student
+{
+protected:
+int roll no;
+public:
+void getdata1()
+{
+cout<<endl<<"Pls Enter Roll NO:"; 
+cin>>roll_no;
+}
+void putdata 1()
+{ 
+cout<<endl<<"The Entered Roll No:"<<roll_no;
+}
+};
+class test: public student
+{
+protected:
+int part1,part2;
+public:
+void getdata2()
+{ 
+cout<<endl<<"Pls Enter Marks In part1 And part2:"<<endl; 
+cin>>part1>>part2;
+} 
+void putdata2()
+{ 
+cout<<endl<<"part1 Marks:"<<part1; 
+cout<<endl<<"part2 Marks:"<<part2;
+}
+};
+class sport
+{
+protected:
+int score;
+public:
+void getdata3()
+{
+cout<<endl<<"Pls Enter Score:";
+} 
+void putdata3()
+{
+cout<<endl<<"Score In Sport:"<<score;
+}
+};
+
+class result: public test,public sport
+{
+protected:
+int total;
+public:
+void calc_tot()
+{
+total score+part1+part2;
+}
+void display_tot()
+{
+cout<<endl<<"The Total Is:\t"<<total;
+}
+};
+void main()
+{
+clrscr();
+result a;
+a.getdata1();
+a.putdata1();
+a.getdata2();
+a.putdata2();
+a.getdata3();
+a.putdata3();
+a.calc_tot();
+a.display_tot();
+getch();
+}
