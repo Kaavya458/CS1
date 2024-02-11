@@ -5,7 +5,7 @@
 void main()
 {
 clrscr();
-int 1;
+int l;
 char a[100],i;
 cout<<"Enter String:"<<endl;
 gets(a);
