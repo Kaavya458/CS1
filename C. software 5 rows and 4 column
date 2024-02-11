@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Software Development Company</title>
+</head>
+
+<body bgcolor="#f0f0f0">
+    <h1>Welcome to our Software Development Company</h1>
+
+    <marquee>Innovating Solutions for Tomorrow</marquee>
+
+    <h2>Our Services:</h2>
+    <ul>
+        <li>Web Development</li>
+        <li>Mobile App Development</li>
+      
+    </ul>
+
+    <h2>Projects Record</h2>
+    <table border="1">
+        <tr>
+            <th>Year</th>
+            <th colspan="2">Web Development</th>
+            <th>Mobile Apps</th>
+        </tr>
+        <tr>
+            <td rowspan="2">2021</td>
+            <td>95%</td>
+            <td>98%</td>
+            <td rowspan="2">99%</td>
+        </tr>
+        <tr>
+            <td>92%</td>
+            <td>94%</td>
+        </tr>
+        <tr>
+            <td>2022</td>
+            <td>97%</td>
+            <td>99%</td>
+            <td>98%</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>96%</td>
+            <td>97%</td>
+            <td>93%</td>
+        </tr>
+    </table>
+
+    <h2>Join Our Team!</h2>
+    <p>We're always looking for talented individuals to join our team. Check our <a href="careers.html">Careers</a> page for opportunities.</p>
+
+    <p>Follow us on <a href="https://twitter.com/yourcompany">Twitter</a> for updates!</p>
+
+    <a href="services.html">
+        <img src="company_logo.jpg" alt="Company Logo" width="300" height="150">
+    </a>
+</body>
+
+</html>
