@@ -1,0 +1,64 @@
+#include<iostream.h>
+#include<conio.h>
+class arithmetic
+{
+public:
+int a,b;
+float c;
+void getdata() 
+{
+cout<<"Enter two numbers";
+cin>>a>>b; 
+}
+void add()
+{c=a+b;
+cout<<"Addition of two numbers: "<<c<<endl;;}
+void sub()
+{c=a-b;
+cout<<"Subtraction of two numbes: "<<c<<endl;}
+void mul()
+{c=a*b;
+cout<<"Multiplication of two numbers: "<<c<<endl;} 
+void div()
+{c=a/b;
+cout<<"Division of two numbers: "<<c;} 
+};
+void main() 
+{
+clrscr();
+arithmetic o;
+kj:
+o.getdata();
+char ch,i;
+cout<<"Press the key associated to the operation"<<endl;
+cout<<"Press '+' for addition"<<endl;
+cout<<"Press '-' for subtraction"<<endl;
+cout<<"Press '*' for multiplication"<<endl;
+cout<<"Press '/' for division"<<endl;
+cout<<"Enter your choice"<<endl;
+cin>>ch;
+switch(ch)
+{
+case'+':
+o.add();
+break;
+case'-':
+o.sub();
+break;
+case'*':
+o.mul();
+break;
+case'/':
+o.div();
+break;
+default :
+cout<<"Please enter only the characters shown in the menu above";
+}
+cout<<"\nDo you want to continue?(y/n)"<<endl;
+cin>>i;
+if(i='y')
+{
+goto kj;
+}
+getch();
+}
