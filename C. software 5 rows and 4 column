@@ -7,13 +7,12 @@
 <body bgcolor="#f0f0f0">
     <h1>Welcome to our Software Development Company</h1>
 
-    <marquee>Innovating Solutions for Tomorrow</marquee>
+    <marquee behavior="scroll" direction="left">Innovating Solutions for Tomorrow</marquee>
 
     <h2>Our Services:</h2>
     <ul>
         <li>Web Development</li>
         <li>Mobile App Development</li>
-      
     </ul>
 
     <h2>Projects Record</h2>
@@ -24,14 +23,17 @@
             <th>Mobile Apps</th>
         </tr>
         <tr>
-            <td rowspan="2">2021</td>
-            <td>95%</td>
+            <td rowspan="3">2021</td>
+            <td rowspan="2">95%</td>
             <td>98%</td>
-            <td rowspan="2">99%</td>
+            <td rowspan="3">99%</td>
         </tr>
         <tr>
             <td>92%</td>
-            <td>94%</td>
+        </tr>
+        <tr>
+        
+            <td colspan="2">Overall</td>
         </tr>
         <tr>
             <td>2022</td>
