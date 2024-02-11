@@ -1,0 +1,25 @@
+#include <iostream.h>
+#include <conio.h>
+class ratio
+{
+Public:
+void Print ()
+{
+cout <<" NOW IT IS BORN"<< endl;
+}
+ratio()
+{
+cout <<"NOW X IS ALIVE"<<endl;
+}
+~ratio()
+{
+cout <<"NOW IT IS DEAD" << endl;
+}
+};
+void main()
+{
+clrscr()
+ratio r;
+r. print ();
+getch();
+}
