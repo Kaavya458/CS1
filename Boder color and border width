@@ -1,0 +1,35 @@
+Private Sub Option1_Click() 
+Shape1.BackColor = vbBlue 
+End Sub
+
+Private Sub Option2_Click() 
+Shapel.BackColor = vbRed 
+End Sub
+
+Private Sub Option3_Click() 
+Shapel.BackColor = vbGreen 
+End Sub
+
+Private Sub Option4_Click() 
+Shape1.BorderColor = vbBlue 
+End Sub
+
+Private Sub Option5_Click() 
+Shape 1.BorderColor = vbRed 
+End Sub
+
+Private Sub Option6_Click() 
+Shapel.BorderColor = vbGreen 
+End Sub
+
+Private Sub Option7_Click() 
+Shape 1. Border Width = 2 
+End Sub
+
+Private Sub Option8_Click() 
+Shapel.Border Width = 5 
+End Sub
+
+Private Sub Option9_Click() 
+Shapel Border Width = 7 
+End Sub
